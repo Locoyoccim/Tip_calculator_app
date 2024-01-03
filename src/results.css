@@ -1,0 +1,25 @@
+:root {
+  --Grayish_cyan: hsl(184, 14%, 56%);
+  --White: hsl(0, 0%, 100%);
+  --Strong_cyan: hsl(172, 67%, 45%);
+}
+.amounts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.2;
+  height: 60px;
+}
+.result_description p {
+  margin: 0;
+  color: var(--White);
+  font-size: 12px;
+}
+.result_description span {
+  color: var(--Grayish_cyan);
+  font-size: 10px;
+}
+.result_number {
+  font-size: 30px;
+  color: var(--Strong_cyan);
+}

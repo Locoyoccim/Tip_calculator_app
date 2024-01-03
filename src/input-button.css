@@ -1,0 +1,38 @@
+:root {
+  --Very_dark_cyan: hsl(183, 100%, 15%);
+  --Dark_grayish_cyan: hsl(186, 14%, 43%);
+  --Grayish_cyan: hsl(184, 14%, 56%);
+  --Light_grayish_cyan: hsl(185, 41%, 84%);
+  --Very_light_grayish_cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+  --Strong_cyan: hsl(172, 67%, 45%);
+}
+.button_input[placeholder] {
+  text-align: right;
+  padding-right: 10px;
+}
+.button_input {
+  width: 85px;
+  height: 35px;
+  background-color: var(--Very_light_grayish_cyan);
+  border: 0;
+  z-index: 0;
+  color: var(--Very_dark_cyan);
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  box-shadow: 1px 6px 19px 0px rgba(97,189,189,0.72);
+}
+.button_input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(38, 115, 105, 0.9);
+  -moz-box-shadow: 0px 0px 15px 4px rgba(38, 115, 105, 0.9);
+  box-shadow: 0px 0px 15px 4px rgba(38, 115, 105, 0.9);
+}
+@media screen and (max-width: 650px) {
+  .button_input{
+      width: 150px
+  }
+}
+
